@@ -1,0 +1,79 @@
+/*css for WRA 410 website*/
+
+/*Papyrus font*/
+body {
+      background-color: #d3d3d3;
+      font-family: Papyrus, Arial, sans-serif;
+}
+
+/*no underline on nav text and light sea green text color*/
+a {
+      text-decoration: none;
+      color: #20b2aa;
+}
+
+
+/*get rid of margin gaps*/
+h1, h2, h3 {
+      margin: 0;
+}
+
+/*add black background with 800 pixels*/
+#container {
+      background-color: black;
+      width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+/*add aquamarine background around centered text with white shadow*/
+#header h1 {
+      background-color: #7fffd4;
+      text-align: center;
+      text-shadow: 2px 3px white;
+}
+
+#header p {
+      color: black;
+      text-align: center;
+      text-decoration: underline;
+
+}
+/*10 pixel padding of content*/
+#content {
+      padding: 10px;
+}
+
+/*180 pixel width floating left to Navigation*/
+#nav {
+      width: 180px;
+      float: left;
+      font-size: 15pt;
+}
+
+/*no padding and get rid of bullet points*/
+#nav ul {
+      list-style-type: none;
+      padding: 0;
+}
+
+/*bold selected nav text and add rounded purple border over selected nav*/
+#nav .selected {
+      font-weight: bold;
+      border: 2px solid #b22071;
+      border-radius: 5px;
+}
+
+/*600 pixel width floating right*/
+#main {
+      width: 600px;
+      float: right;
+}
+
+/*clear both floating elements before display and add white centered font */
+#footer {
+      clear: both;
+      background-color: #adadad;
+      color: white;
+      text-align: center;
+}
